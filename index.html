@@ -4,120 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hades - Fazer frase depois</title>
-    <link rel="stylesheet" href="./main.css">
-
+    <title>Agenda de Contatos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>HADES</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about">Sobre o jogo</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contato</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="about">
-        <div class="container">
-            <img class="game-front" src="./images/Hades.jpg" alt="Capa do jogo Hades" />
-            <div>
-                <h2>Sobre o jogo</h2>
-                <p>
-                    Hades é um jogo roguelike que combina os melhores aspectos dos títulos da Supergiant aclamados pela crítica, incluindo a ação rápida de Bastion, a rica atmosfera e profundidade de Transistor e a narrativa baseada em personagens de Pyre.
-                </p>
-                <h4>LUTE PARA SAIR DO INFERNO</h4>
-                <p>
-                    Na pele do imortal Príncipe do Submundo, você usará os poderes e as armas míticas do Olimpo para se libertar das garras do deus dos mortos, enquanto se fortalece e descobre mais sobre a história a cada tentativa única de fuga.
-                </p>
-                <h4>LIBERE A FÚRIA DO OLIMPO</h4>
-                <p>
-                    Os deuses do Olimpo vão te ajudar! Conheça Zeus, Atena, Poseidon e muitos outros, e escolha entre dezenas de Dádivas poderosas que aprimoram suas habilidades. Existem milhares de construções possíveis de personagens para descobrir à medida que avança.
-                </p>
-                <h4>FAÇA AMIZADE COM DEUSES, FANTASMAS E MONSTROS</h4>
-                <p>
-                    Um elenco repleto de vozes de personagens pitorescos e impressionantes está esperando para conhecê-lo! Aprimore seu relacionamento com eles e vivencie centenas de eventos únicos da história enquanto aprende sobre o que realmente está em jogo para esta grande e disfuncional família.
-                </p>
-                <h4>CONSTRUÍDO PARA REJOGABILIDADE</h4>
-                <p>
-                    Novas surpresas aguardam cada vez que você mergulhar no Submundo em constante mudança, repleto de chefes guardiões que nunca se esquecem de você. Use o poderoso Espelho da Noite para ficar permanentemente mais forte e aprimore suas habilidades na próxima vez que fugir de casa.
-                </p>
-                <h4>NADA É IMPOSSÍVEL</h4>
-                <p>
-                    Atualizações permanentes significam que você não precisa ser um deus para vivenciar combates e histórias emocionantes. No entanto, se você é um deles, aceite o desafio e prepare-se para a ação emocionante que colocará suas habilidades bem praticadas à prova.
-                </p>
-                <h4>CLÁSSICO ESTILO SUPERGIANT</h4>
-                <p>
-                    A apresentação rica e atmosférica e a combinação única de jogabilidade e narrativa, essenciais para os jogos da Supergiant, estão aqui com força total: ambientes espetaculares pintados à mão e uma trilha sonora original emocionante dão vida ao Submundo.
-                </p>
-                <ul class="brands-list">
-                    <li><img src="./images/Nintendo_Switch_logo_transparent_+_wordmark.png" alt="Nintendo"/></li>
-                    <li><img src="./images/PS5.png" alt="Playstation 5"/></li>
-                    <li><img src="./images/Steam.png" alt="Steam"/></li>
-                    <li><img src="./images/Xbox.png" alt="Xbox"/></li>
-                    <li><img src="./images/Windows.png" alt="Windows"/></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Contato</h2>
-            <div class="contact-methods">
-                <div>
-                    <h3>Fale conosco</h3>
-                    <form>
-                        <input type="text" placeholder="Seu nome" required />
-                        <input type="email" placeholder="Seu e-mail" required />
-                        <input type="tel" placeholder="Seu telefone (opcional)" />
-                        <textarea placeholder="Sua mensagem" required></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
-                </div>
-                <div>
-                    <h3>Nos acompanhe</h3>
-                    <ul class="social-links">
-                        <li>
-                            <a href="#" title="Siga-nos no Instagram">
-                                <img src="./images/instagram.png" alt="Logo do Instagram" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Siga-nos no Facebook">
-                                <img src="./images/facebook.png" alt="Logo do Facebook" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Visite nosso canal no YouTube">
-                                <img src="./images/youtube.png" alt="Logo do YouTube" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Venha até nós</h3>
-                    <p>
-                        Rua JavaScript nº 174, Vila HTML - Sao Paulo - SP
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>
-                &copy; Hades - Todos os direitos reservados - 2023
-            </p>
-        </div>
-    </footer>
+    <div class="container">
+        <header>
+            <img src="./images/telefone.png" alt="telefone">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="form-contato">
+            <input type="text" id="nome-contato" required placeholder="Nome do contato" />
+            <input type="tel" id="num-telefone" required placeholder="Telefone" minlength="11"/>
+            <button type="submit">Cadastrar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>Telefone</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>
