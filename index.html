@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda de Contatos</title>
+    <title>Lista de tarefas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -13,28 +13,18 @@
 <body>
     <div class="container">
         <header>
-            <img src="./images/telefone.png" alt="telefone">
-            <h1>Agenda de Contatos</h1>
+            <img src="./images/to-do-list.png" alt="post-it">
+            <h1>Lista de tarefas</h1>
         </header>
-        <form id="form-contato">
-            <input type="text" id="nome-contato" required placeholder="Nome do contato" />
-            <input type="tel" id="num-telefone" required placeholder="Telefone" minlength="11"/>
-            <button type="submit">Cadastrar +</button>
+        <form id="form-tarefa">
+            <input type="text" id="nome-tarefa" required placeholder="Nome da tarefa" />
+            <button type="submit" id="botao-cadastrar">Cadastrar</button>
         </form>
-        <table cellspacing="0">
-            <thead>
-                <tr>
-                    <th>
-                        Nome
-                    </th>
-                    <th>Telefone</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+        <ul>
+            
+        </ul>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>

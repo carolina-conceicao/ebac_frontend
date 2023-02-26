@@ -1,26 +1,20 @@
-const form = document.getElementById('form-contato');
-const imgOk = '<img src="./images/ok.png" alt="emoji check" />'
-const imgErro = '<img src="./images/cross.png" alt="emoji x" />'
+$(document).ready(function() {
 
-let linhas = '';
+    $('form').on('submit', function(e) {
+        e.preventDefault();
 
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
+        const nomeTarefaNova = $('#nome-tarefa').val();
+        const novaTarefa = $('<li id="task"></li>');
 
-    const inputNomeContato = document.getElementById('nome-contato');
-    const inputNumTelefone = document.getElementById('num-telefone');
+        $(`<td id="task_p">${nomeTarefaNova}</td>`).appendTo(novaTarefa);
+        $(novaTarefa).appendTo('ul');
+        $('#nome-tarefa').val('');
 
-    let linha = '<tr>';
-    linha += `<td>${inputNomeContato.value}</td>`;
-    linha += `<td>${inputNumTelefone.value}</td>`;
-    linha += `<td>${inputNumTelefone.value >= 0 ? imgOk : imgErro}</td>`;
-    linha += '<tr>';
-
-    linhas += linha;
-
-    const corpoTabela = document.querySelector('tbody');
-    corpoTabela.innerHTML = linhas;
-
-    inputNomeContato.value = ''
-    inputNumTelefone.value = ''
-});
+})
+    $(document).on('click', function() {
+        if ($(task_p).css('text-decoration-line') == "none")
+            $(task_p).css('text-decoration-line', 'line-through');
+        else
+            $(task_p).css('text-decoration-line', 'none');
+    })
+})
