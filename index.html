@@ -3,38 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda de Contatos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Pump Shoes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 </head>
 <body>
-    <div class="container">
-        <header>
-            <img src="./images/telefone.png" alt="telefone">
-            <h1>Agenda de Contatos</h1>
+    <header>
+        <div class="container container-flex">
+            <h1>Pump Shoes</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#sobre-a-loja">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         </header>
-        <form id="form-contato">
-            <input type="text" id="nome-contato" required placeholder="Nome do contato" />
-            <input type="tel" id="num-telefone" required placeholder="Telefone" minlength="11"/>
-            <button type="submit">Cadastrar +</button>
-        </form>
-        <table cellspacing="0">
-            <thead>
-                <tr>
-                    <th>
-                        Nome
-                    </th>
-                    <th>Telefone</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </div>
-    <script src="./main.js"></script>
+        <div id="carousel-images">
+            <img src="./images/slide 1.jpg" alt="Imagem tenis Nike">
+            <img src="./images/slide 2.jpg" alt="Imagem tenis Nike">
+            <img src="./images/slide 3.jpg" alt="Imagem tenis Nike">
+        </div>
+        <section id="sobre-a-loja">
+            <div class="container container-flex">
+                <img src="https://images.pexels.com/photos/2460436/pexels-photo-2460436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=" Imagem da loja Pump Shoes">
+                <div>
+                    <h2>Sobre a loja</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quidem ipsum assumenda fugiat dolore? In natus excepturi molestias, officiis id, beatae quos dolores magnam nobis, voluptates porro rerum quas sint?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quidem ipsum assumenda fugiat dolore? In natus excepturi molestias, officiis id, beatae quos dolores magnam nobis, voluptates porro rerum quas sint?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+                <h2>Produtos</h2>
+                <ul class="container-flex lista-produtos">
+                    <li>
+                        <img src="https://images.pexels.com/photos/1670766/pexels-photo-1670766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Par de tenis branco">
+                        <h3>Tênis Adidas Hu</h3>
+                        <p>
+                            Tênis adidas branco disponivel nos tamanhos: 37, 38, 39, 40 e 42
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="https://images.pexels.com/photos/1670765/pexels-photo-1670765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Par de tenis branco">
+                        <h3>Tênis Stan Smith Lux</h3>
+                        <p>
+                            Tênis adidas branco disponivel nos tamanhos: 37, 38, 39, 40 e 42
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="https://images.pexels.com/photos/1670764/pexels-photo-1670764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Par de tenis cinza">
+                        <h3>Tênis S.W.P</h3>
+                        <p>
+                            Tênis S.W.P cinza disponivel nos tamanhos: 37, 38, 39, 40 e 42
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="https://images.pexels.com/photos/1619652/pexels-photo-1619652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Par de tenis verde">
+                        <h3>Tênis Adidas München</h3>
+                        <p>
+                            Tênis adidas verde disponivel nos tamanhos: 37, 38, 39, 40 e 42
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Par de tenis amarelo">
+                        <h3>Tênis Vans Authentic</h3>
+                        <p>
+                            Tênis VANS amarelo disponivel nos tamanhos: 37, 38, 39, 40 e 42
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Par de tenis cinza claro">
+                        <h3>Tênis Nike Air Jordan</h3>
+                        <p>
+                            Tênis Nike cinza claro disponivel nos tamanhos: 37, 38, 39, 40 e 42
+                        </p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            
+        </footer>
+        
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $('#carousel-images').slick({
+                autoplay: true,
+            });
+
+            $('.menu-hamburguer').click(function() {
+                $('nav').slideToggle();
+            })
+        })
+    </script>
 </body>
 </html>
