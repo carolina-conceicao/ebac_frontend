@@ -1,7 +1,24 @@
-time {
-    display: block;
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-.post {
-    margin-bottom: 24px;
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    background-color: #ffffff;
+    padding-top: 70px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
 }
