@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorohedoro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Sora:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+        <div class="container">
+            <img class="navbar-brand m-0" src="https://cafecomnerd.com.br/wp-content/uploads/2020/06/dorohedoro-anime-logo.png" alt="dorohedoro logo">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o anime</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#world">
+                            <i class="bi bi-compass me-1"></i>
+                            Regiões</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#characters">
+                            <i class="bi bi-person me-1"></i>
+                            Personagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="about">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active w-100" data-bs-interval="3000">
+                        <img src="images/slide4.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slide2.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item" class="w-100" data-bs-interval="3000">
+                        <img src="images/slide3.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/dorohedoro.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3">
+                            <h2 class="section-title">Sobre o anime</h2>
+                            <p>A história gira em torno de Kaiman, que não se lembra quem era antes de ser transfigurado por um feiticeiro. Essa transformação o deixou com a cabeça de um réptil e o desejo de descobrir a verdade sobre quem ele realmente é.</p>
+                                <p>Acompanhado por Nikaido, sua companheira, ele ataca violentamente feiticeiros no Buraco, com o objetivo de levar a cabeça à boca, na esperança de descobrir quem foi que o colocou neste estado. Um por um, eles testemunham esse "segundo homem" dentro da cabeça de Kaiman, e depois de puxá-los para fora de sua boca, ele faz uma pergunta a todos eles: "O que o cara dentro da minha cabeça disse?"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="world" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <h2 class="section-title text-center">Sobre as <span class="text-colored">regiões</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/LOCAL/HOLE.jpg" alt="dorohedoro hole" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class=""></i>
+                            O BURACO
+                        </h3>
+                        <p>É um dos principais locais onde a história se passa, lar dos personagens principais, Kaiman e Nikaido. A cidade está constantemente sombria e nublada, sendo esta última causada por fenômenos climáticos desconhecidos ou poluição do ar.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/LOCAL/MAGIC-WORLD.jpg" alt="dorohedoro magic world" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class=""></i>
+                            MUNDO DOS FEITICEIROS
+                        </h3>
+                        <p> É um lugar onde os usuários de magia e Demônios residem. Não existe chuva neste mundo, a ponto de os feiticeiros que nunca deixaram o reino não saberem o que é, ou o que são guarda-chuvas e capas de chuva. Não é tão diferente do Buraco, é apenas um pouco mais limpo e um pouco mais civilizado.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/LOCAL/DOORS.JPG" alt="dorohedoro door" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class=""></i>
+                            PORTA MÁGICA DOS FEITICEIROS
+                        </h3>
+                        <p>É um portal dimensional que os usuários de magia fazem com sua fumaça para se mover do Mundo dos Feiticeiros e o Buraco . Os designs de portas são diversos, então cada usuário de magia tem seu próprio design pessoal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="characters" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Sobre os <span class="text-colored">personagens</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#main" class="fw-bold text-start nav-link active text-colored">PRINCIPAIS</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hole"class="fw-bold text-start nav-link text-colored">HUMANOS DO BURACO</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#magic" class="fw-bold text-start nav-link text-colored">USUÁRIOS DE MAGIA</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entity" class="fw-bold text-start nav-link text-colored">ENTIDADES</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="main">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/KAIMAN.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">KAIMAN</h5>
+                                        <p> Sua cabeça de lagarto é o resultado de um experimento e seu principal objetivo é procurar aquele que o amaldiçoou para mudar seu rosto de volta. Mas, porque ele não consegue se lembrar de quem o amaldiçoou?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/NIKAIDO.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">NIKAIDO</h5>
+                                        <p>Companheira de Kaiman e ambos caçam feiticeiros. Ela é dona de um restaurante chamado Inseto Faminto no Buraco.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="hole">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/13.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">13</h5>
+                                        <p>13 é residente do Buraco. Ele é um cliente regular do Hungry Bug e é amigo de Nikaido, Vaux, Kasukabe e Jonson.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/JONSON.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">JONSON</h5>
+                                        <p>Jonson é um inseto que se transformou em um enorme monstro por causa da água do esgoto de Hole.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/KASUKABE.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">KASUKABE</h5>
+                                        <p>É um cientista que tem uma leve obsessão em estudar usuários de magia. Apesar de ter a aparência de um adolescente, Kasukabe tem, aparentemente, na verdade 64 anos, mas devido à prática de magia que sofreu parece significativamente mais jovem.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/VAUX.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">VAUX</h5>
+                                        <p>Vaux mais conhecido como Doc é um humano do Buraco e um médico. Ele era um ex-auxiliar de Kasukabe e quando Kasukabe saiu, ele assumiu o hospital .</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="magic">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/FUJITA.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">FUJITA</h5>
+                                        <p>É um usuário mágico e um membro de baixo escalão da Família En. Ele tem um grande respeito pelos outros membros da família (por exemplo, Shin e Noi ), mesmo que eles geralmente o vejam como um usuário de magia não qualificado e irritante.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/EBISU.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">EBISU</h5>
+                                        <p>É um usuário mágico que é membro da organização de En e é o parceiro não oficial de Fujita. Ela usa uma máscara de caveira, que varia em design ao longo da série.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/SHIN.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">SHIN</h5>
+                                        <p>É um usuário mágico de elite, um "faxineiro" para En e o parceiro e amigo de longa data de Noi. Sua magia permite que ele corte as pessoas sem matá-las.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/NOI.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">NOI</h5>
+                                        <p>É um usuário de magia de elite, parceira e amiga de longa data de Shin. Ela trabalha com ele como "faxineira" para En, seu primo mais velho. O poder de Noi é a cura, que é um dos tipos de magia mais raros.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/EN.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">EN</h5>
+                                        <p>É um usuário de magia de elite e chefe da Família En. En controla a maioria, senão todos os negócios dentro do reino dos feiticeiros e é considerado um dos usuários de magia mais fortes do mundo.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/RISU.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">RISU</h5>
+                                        <p>É um usuário de magia que foi apresentado pela descoberta de sua cabeça decepada. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="entity">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/CHIDARUMA.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">CHIDARUMA</h5>
+                                        <p>É o Demônio mais poderoso e o governante do Inferno e do Reino dos Usuários de Magia .</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ICONS/ASU.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">ASU</h5>
+                                        <p>Um dos feiticeiros transcendidos e transformados que desistiram de sua existência mortal em troca de poder e liberdade ilimitados. Eles são a espécie dominante no Inferno.</p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" requires>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereco</h3>
+                            <p>Rua Inseto Faminto nº 13, Bairro Magia - Buraco - BR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
